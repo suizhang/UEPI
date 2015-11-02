@@ -1,8 +1,4 @@
 /**
- * @author
- * Geoffrey Kimball
- * @date
- * May 8, 2009
  *
  * @file
  * UEPI Header definition file.

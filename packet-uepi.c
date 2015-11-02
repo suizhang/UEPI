@@ -159,7 +159,7 @@ void proto_register_uepi( void )
     /* Execute protocol initialization only once */
     if ( proto_uepi == -1 )
     {
-        proto_uepi = proto_register_protocol( "UEPI Protocol as used by Cisco Quetzal/3Gx60",
+        proto_uepi = proto_register_protocol( "UEPI Protocol as used by cmts /3Gx60",
                                               "UEPI", "uepi" );
         proto_register_field_array( proto_uepi, hf, array_length( hf ));
         proto_register_subtree_array( ett, array_length( ett ));
